@@ -1,0 +1,6 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+fbeen_user:
+    resource: "@FbeenUserBundle/Resources/config/routing.yml"
+    prefix:   /
