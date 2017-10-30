@@ -9,7 +9,6 @@ use Symfony\Component\Security\Core\User\AdvancedUserInterface;
  * @ORM\Table(name="admins")
  * @ORM\Entity
  */
-
 class Admin implements AdvancedUserInterface, \Serializable
 {
     use \Fbeen\UserBundle\Model\UserTrait;
